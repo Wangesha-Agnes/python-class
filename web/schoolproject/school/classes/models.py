@@ -1,6 +1,6 @@
 from django.db import models
 
-from django.db import models
+
 class Classes(models.Model):
     class_id = models.PositiveSmallIntegerField(primary_key=True)
     room_number = models.CharField(max_length=20)
